@@ -1,0 +1,31 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary: #00ff7f;
+$secondary: #ff5e4d;
+body {
+    background-color: lighten($secondary, 34%);
+}
+button { 
+    margin: 0 0.2rem;
+}
+.navbar-custom {
+    background-color: $primary;
+    justify-content: space-between;
+    > * {
+        padding: 0;
+    }
+}
+.log {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+}
+.dropdown-menu{
+    border: 0.2rem solid  $primary;
+}
+h1{
+    text-align: center;
+    color: $secondary;
+    padding-top: 1%;
+}
